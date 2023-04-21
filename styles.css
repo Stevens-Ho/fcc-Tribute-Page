@@ -1,0 +1,67 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+  }
+
+main {
+    background-color: rgb(241, 241, 241);
+    margin: 30px 5px;
+}
+
+#header {
+    text-align: center;
+    padding: 20px 0 5px 0;
+}
+
+#title {
+    font-size: 2.5rem;
+}
+
+#img-div {
+    margin: auto;
+    width: 97%;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#image {
+    max-width: 100%;
+    height: auto;
+}
+
+#img-caption {
+    padding: 15px;
+}
+
+#tribute-info {
+    padding: 30px;
+}
+
+.smaller-width {
+    width: 45%;
+    margin: auto;
+}
+
+li, p {
+    margin: 20px;
+    line-height: 25px;
+}
+
+.bold {
+    font-weight: 800;
+}
+
+.name {
+    margin: 20px auto;
+}
+
+.center {
+    text-align: center;
+}
+
+.add-margin {
+    margin: 40px;
+}
